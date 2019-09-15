@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+nav{
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+nav a{
+  padding: 10px;
+  text-transform: uppercase;
+}
