@@ -24,20 +24,24 @@ nav a{
   margin: 40px;
 }
 
+
 .hero{
   height: 690px;
   padding-top: 400px;
 }
 
-h1 h4{
-  font-family: 'Heebo', sans-serif;
-  position: absolute;
 
-}
-a{
+a {
   text-decoration: none;
+  color: black;
 }
+
 
 i{
   padding: 10px;
+}
+
+.contact{
+   display: flex;
+   justify-content: space-around;
 }
