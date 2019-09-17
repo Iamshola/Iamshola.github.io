@@ -34,3 +34,10 @@ h1 h4{
   position: absolute;
 
 }
+a{
+  text-decoration: none;
+}
+
+i{
+  padding: 10px;
+}
