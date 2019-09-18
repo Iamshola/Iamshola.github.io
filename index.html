@@ -50,15 +50,21 @@
     </div>
   </a>
 
-    <div>
+    <div class="slideshow-container">
+      <div class="mySlides fade ind-project">
+        <div>
+        <img src="img1.jpg" style="width:100%">
+      </div>
+      <div>
       <h2>Project 1
       <a href="https://iamshola.github.io/project-01/"> <i class="fa fa-gamepad"></i>Play Game here</a>
       <a href="https://github.com/Iamshola/project-01"><i class="fa fa-github"></i> Github Repo</a> </h2>
       <p>Languages and Technologies used: HTML, CSS JavaScript, Google Fonts, Font Awesome</p>
       <p> A Javascript game based on the classic arcade game Frogger. The idea of Frogger is to guide a family of frogs across a road, and a river to their homes at the top of the screen. To make things more challenging there are numerous moving obstacles that the frogs must avoid to reach their destination.</p>
     </div>
+    </div>
 
-    <div>
+    <div class="mySlides fade">
       <h2>Project 2
       <a href="https://iamshola.github.io/Project-2/#/"><i class="fa fa-window-restore"></i>View site here</a>
       <a href="https://github.com/Iamshola/Project-2"><i class="fa fa-github"></i> Github Repo</a> </h2>
@@ -66,7 +72,8 @@
       <p>Cocktail bored is a website which consumes an external API. This allows users to review cocktail recipe, filter and sort by ingredient and different cocktails. </p>
     </div>
 
-    <div>
+    <div class="mySlides fade">
+
       <h2>Project 3
       <a href="https://datingexp.herokuapp.com/#/"><i class="fa fa-window-restore"></i>View site here</a>
       <a href="https://github.com/Iamshola/Project3"><i class="fa fa-github"></i> Github Repo</a> </h2>
@@ -74,19 +81,29 @@
       <p> Date-a-Base is a virtual community where everyone can find and share advice about beautiful and funny locations in London and surroundings, suitable for a date. The type of locations meet a wide range of preferences which can be filtered depending on price range, date number and activity type.</p>
     </div>
 
-    <div>
+    <div class="mySlides fade">
       <h2>Project 4
       <a href="https://space-project04.herokuapp.com/#/"><i class="fa fa-window-restore"></i>View site here</a>
       <a href="https://github.com/Iamshola/project-04"><i class="fa fa-github"></i> Github Repo</a> </h2>
       <p> Date-a-Base is a  virtual community aimed at entrepreneurs and studentz looking for spaces to work. It is a platform which enable users to find suitable venues to work based on various specifications. Users are able to comment on the posts and advise other users based on experiences. Additionally, users are able to view profile pages. </p>
     </div>
 
-    <div>
+    <div class="mySlides fade">
       <h2>Snake
       <a href="https://github.com/Iamshola/snake"><i class="fa fa-gamepad"></i> Play Game here</a>
       <a href="https://iamshola.github.io/snake"><i class="fa fa-github"></i> Github Repo</a> </h2>
       <p>Languages and Technologies used:HTML5, CSS3, JavaScript (ES6), Git, GitHub, Google Fonts</p>
       <p> A Javascript game based on the classic mobile game snake. The idea of snake is to render a grid-based game in the browser and have a snake that moves dynamically with keystrokes</p>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)"> <i class="fa fa-angle-double-left"></i></a>
+    <a class="next" onclick="plusSlides(1)"> <i class="fa fa-angle-double-right"></i></a>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
     </div>
 
     </div>
@@ -137,8 +154,6 @@
     //Get the button
     var mybutton = document.getElementById("myBtn");
 
-
-    // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
@@ -149,11 +164,35 @@
       }
     }
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+    var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
     }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+
 </script>
   </body>
 </html>
