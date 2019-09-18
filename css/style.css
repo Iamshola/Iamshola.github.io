@@ -128,11 +128,15 @@ body{
 html {
 	scroll-behavior: smooth;
 }
-
+.indi-project{
+  padding-top: 50px;
+   display: flex;
+   justify-content: space-between;
+ }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1200px;
+  max-width: 1300px;
   position: relative;
   margin: auto;
 }
@@ -147,9 +151,9 @@ html {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 80%;
+  top: 60%;
   width: auto;
-  margin: -70px;
+  margin: -30px;
   padding: 16px;
   color: pink;
   font-weight: bold;
