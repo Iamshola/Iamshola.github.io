@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
+div.indi-project{
+  padding-top: 50px;
+   display: flex;
+   justify-content: space-between;
+ }
 body {
   margin: 0;
   font-family: 'Heebo', sans-serif;
@@ -128,11 +134,7 @@ body{
 html {
 	scroll-behavior: smooth;
 }
-div.indi-project{
-  padding-top: 50px;
-   display: flex;
-   justify-content: space-between;
- }
+
 
 /* Slideshow container */
 .slideshow-container {
