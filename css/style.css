@@ -27,6 +27,13 @@ h2{
   padding: 20px;
 
 }
+@media only screen and (max-width: 1024px) {
+  .project-image{
+    height: 350px;
+    width: 500px;
+  }
+
+}
 
 a span {
   display: none;
@@ -74,6 +81,7 @@ i{
   font-family: 'Raleway', Arial, sans-serif;
   color: grey;
 }
+
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 .hero h1 {
@@ -90,6 +98,23 @@ i{
   width: 100%;
   padding-top: 140px;
   animation: move linear 5000ms infinite;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero {
+    height: 500px;
+  }
+  .hero h1{
+    position: absolute;
+    top: 5%;
+    font: normal 80px Varela Round, sans-serif;
+
+   }
+  .hero p{
+    padding-top: 100px;
+
+  }
+
 }
 
 @keyframes move {
@@ -379,11 +404,20 @@ h2.skills-title{
   padding: 15px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .vl {
+    height: 680px;
+  }
+
+}
+
 p.tech-languages{
   text-align: center;
   font-weight: 900;
 
 }
+
+
 
 .vl-education {
   border-left: 1.2px solid 	#A9A9A9;
@@ -391,6 +425,12 @@ p.tech-languages{
   margin-top: 20px;
   margin-left: 5px;
   padding: 15px;
+}
+@media only screen and (max-width: 1024px) {
+  .vl-education {
+    height: 430px;
+  }
+
 }
 
 
