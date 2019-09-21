@@ -1,7 +1,7 @@
-
 html {
   scroll-behavior: smooth;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -9,37 +9,137 @@ html {
 body {
   margin: 0;
   font-family: 'Heebo', sans-serif;
-}
-
-nav{
-  text-align: center;
-  margin-top: 20px;
-
-}
-nav a{
-  padding: 10px;
-  text-decoration: none;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-family: 'Heebo', sans-serif;
+  background-color: #404040;
 }
 
 .container{
   margin: 40px;
 }
 
-
 .hero{
-  height: 690px;
-  padding-top: 400px;
+  height: 680px;
+  padding-top: 250px;
+  text-align: center;
+  background-color: pink;
+  text-transform: lowercase;
 }
+
+.hero p{
+  font-size: 24px;
+  padding-top: 140px;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+  background: hsla(0, 0%, 0%, .9);
+}
+
+.hero h1 {
+  color: hsla(0, 0%, 0%, .9);
+  font: normal 90px Varela Round, sans-serif;
+  height: 140px;
+  left: 0;
+  letter-spacing: 5px;
+  margin: -80px 0 0 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 30%;
+  width: 100%;
+  padding-top: 140px;
+  animation: move linear 7000ms infinite;
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1),
+      3px -3px 0 hsla(0, 100%, 50%, 1),
+      2px -2px 0 hsla(0, 100%, 50%, 1),
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1),
+      -2px 2px 0 hsla(180, 100%, 50%, 1),
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {
+    text-shadow:
+      -4px -4px 0 hsla(180, 100%, 50%, 1),
+      -3px -3px 0 hsla(180, 100%, 50%, 1),
+      -2px -2px 0 hsla(180, 100%, 50%, 1),
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1),
+      3px 3px 0 hsla(0, 100%, 50%, 1),
+      2px 2px 0 hsla(0, 100%, 50%, 1),
+      1px 1px 0 hsla(0, 100%, 50%, 1)
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1),
+      -3px 3px 0 hsla(0, 100%, 50%, 1),
+      -2px 2px 0 hsla(0, 100%, 50%, 1),
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1),
+      3px -3px 0 hsla(180, 100%, 50%, 1),
+      2px -2px 0 hsla(180, 100%, 50%, 1),
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1),
+      3px 3px 0 hsla(180, 100%, 50%, 1),
+      2px 2px 0 hsla(180, 100%, 50%, 1),
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1),
+      -3px -3px 0 hsla(0, 100%, 50%, 1),
+      -2px -2px 0 hsla(0, 100%, 50%, 1),
+      -1px -1px 0 hsla(0, 100%, 50%, 1)
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1),
+      3px -3px 0 hsla(0, 100%, 50%, 1),
+      2px -2px 0 hsla(0, 100%, 50%, 1),
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1),
+      -2px 2px 0 hsla(180, 100%, 50%, 1),
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 a{
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 14px;
 }
-
 
 i{
   padding: 10px;
@@ -48,14 +148,17 @@ i{
 body{
 	margin:0;
 	padding:0;
+  color: white;
 }
 
+/* Navabar Content Starts */
 .nav-container {
   font-family: 'Raleway', Arial, sans-serif;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 500;
   letter-spacing: 1px;
+  margin-top: -5px;
 }
 .nav-container * {
   -webkit-box-sizing: border-box;
@@ -83,7 +186,7 @@ body{
   content: '';
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
-  background-color: #9b59b6;
+  background-color: #9b59b1;
   width: 0;
 }
 .nav-container a:before {
@@ -104,6 +207,25 @@ body{
 .nav-container .current a:after {
   width: 100%;
 }
+
+#header-fix-space {
+  height: 150px;
+}
+
+#fixed-header	{
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1500;
+
+}
+/* Navabar Content Ends */
+
+
+
+
 
 
 .footer{
@@ -238,6 +360,7 @@ div.indi-project{
 
 .skills-child {
   width: 450px;
+  color: white;
 }
 .vl {
   border-left: 2px solid grey;
