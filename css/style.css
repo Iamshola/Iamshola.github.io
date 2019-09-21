@@ -8,12 +8,41 @@ html {
 
 body {
   margin: 0;
+  padding:0;
   font-family: 'Heebo', sans-serif;
-  background-color: #404040;
+  background: hsla(0, 0%, 0%, .9);
+  color: white;
 }
 
 .container{
   margin: 40px;
+}
+
+
+a span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background: pink;
+}
+
+a:hover span {
+  display: block;
+  text-align: center;
+}
+
+
+a{
+  position: relative
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+i{
+  padding: 10px;
 }
 
 .hero{
@@ -31,10 +60,6 @@ body {
 }
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
-body {
-  background: hsla(0, 0%, 0%, .9);
-}
-
 .hero h1 {
   color: hsla(0, 0%, 0%, .9);
   font: normal 90px Varela Round, sans-serif;
@@ -48,7 +73,7 @@ body {
   top: 30%;
   width: 100%;
   padding-top: 140px;
-  animation: move linear 7000ms infinite;
+  animation: move linear 5000ms infinite;
 }
 
 @keyframes move {
@@ -116,23 +141,8 @@ body {
 
 .section-header{
   text-align: center;
-}
-
-
-a{
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-}
-
-i{
-  padding: 10px;
-}
-
-body{
-	margin:0;
-	padding:0;
-  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
 }
 
 /* Navabar Content Starts */
@@ -158,7 +168,7 @@ body{
 }
 .nav-container a {
   padding: 0.3em 0;
-  color: black;
+  color: grey;
   position: relative;
   text-decoration: none;
   display: inline-block;
@@ -206,10 +216,6 @@ body{
 
 }
 /* Navabar Content Ends */
-
-
-
-
 
 
 .footer{
@@ -337,7 +343,8 @@ h2.skills-title{
   text-align: center;
 }
 .skills-icon {
-  font-size: 4rem
+  font-size: 4rem;
+  color: grey;
 }
 
 .skills-container{
