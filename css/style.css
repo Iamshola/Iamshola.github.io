@@ -10,14 +10,13 @@ body {
   margin: 0;
   padding:0;
   font-family: 'Heebo', sans-serif;
-  background: hsla(0, 0%, 0%, .9);
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .container{
-  margin: 40px;
+  margin: 10px 80px;
 }
-
 
 a span {
   display: none;
@@ -33,11 +32,17 @@ a:hover span {
   text-align: center;
 }
 
-
+.photo {
+  width: 160px;
+  height: 220px;
+  border-radius: 70px;
+  float: left;
+  padding-right: 20px;
+}
 a{
   position: relative
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 14px;
 }
 
@@ -46,7 +51,7 @@ i{
 }
 
 .hero{
-  height: 680px;
+  height: 800px;
   padding-top: 250px;
   text-align: center;
   background-color: pink;
@@ -57,6 +62,7 @@ i{
   font-size: 24px;
   padding-top: 140px;
   font-family: 'Raleway', Arial, sans-serif;
+  color: grey;
 }
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
@@ -207,7 +213,7 @@ i{
 }
 
 #fixed-header	{
-  background-color: white;
+  background-color: pink;
   width: 100%;
   position: fixed;
   top: 0px;
@@ -231,7 +237,7 @@ i{
   border: none;
   outline: none;
   background-color: pink;
-  color: white;
+  color: black;
   cursor: pointer;
   padding: 15px;
   border-radius: 40px;
@@ -343,7 +349,7 @@ h2.skills-title{
   text-align: center;
 }
 .skills-icon {
-  font-size: 4rem;
+  font-size: 3rem;
   color: grey;
 }
 
@@ -353,10 +359,10 @@ h2.skills-title{
 
 .skills-child {
   width: 50%;
-  color: white;
+  color: black;
 }
 .vl {
-  border-left: 2px solid grey;
+  border-left: 1.75px solid 	#A9A9A9;
   height: 500px;
   margin-top: 20px;
   margin-left: 5px;
