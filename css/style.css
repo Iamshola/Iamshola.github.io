@@ -1,12 +1,11 @@
+
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
 }
 
-div.indi-project{
-  padding-top: 50px;
-   display: flex;
-   justify-content: space-between;
- }
 body {
   margin: 0;
   font-family: 'Heebo', sans-serif;
@@ -131,10 +130,11 @@ body{
   background-color: #555;
 }
 
-html {
-	scroll-behavior: smooth;
+div.indi-project{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 /* Slideshow container */
 .slideshow-container {
@@ -226,4 +226,22 @@ html {
 	html {
 		scroll-behavior: auto;
 	}
+}
+
+.skills-icon {
+  font-size: 4rem
+}
+
+.skills-container{
+  display: flex;
+}
+
+.skills-child {
+  width: 450px;
+}
+.vl {
+  border-left: 2px solid grey;
+  height: 300px;
+  margin-top: 20px;
+  padding: 10px;
 }
