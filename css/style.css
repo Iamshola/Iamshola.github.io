@@ -372,7 +372,7 @@ h2.skills-title{
   color: black;
 }
 .vl {
-  border-left: 1.75px solid 	#A9A9A9;
+  border-left: 1.2px solid 	#A9A9A9;
   height: 500px;
   margin-top: 20px;
   margin-left: 5px;
@@ -386,8 +386,8 @@ p.tech-languages{
 }
 
 .vl-education {
-  border-left: 1.75px solid 	#A9A9A9;
-  height: 300px;
+  border-left: 1.2px solid 	#A9A9A9;
+  height: 350px;
   margin-top: 20px;
   margin-left: 5px;
   padding: 15px;
