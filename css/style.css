@@ -14,8 +14,18 @@ body {
   color: black;
 }
 
+h2{
+  text-align: center;
+}
+
 .container{
   margin: 10px 80px;
+}
+.project-image{
+  height: 400px;
+  width: 600px;
+  padding: 20px;
+
 }
 
 a span {
@@ -264,7 +274,7 @@ div.indi-project{
 /* Hide the images by default */
 .mySlides {
   display: none;
-  height: 560px;
+  height: 500px;
 }
 
 /* Next & previous buttons */
@@ -364,6 +374,20 @@ h2.skills-title{
 .vl {
   border-left: 1.75px solid 	#A9A9A9;
   height: 500px;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 15px;
+}
+
+p.tech-languages{
+  text-align: center;
+  font-weight: 900;
+
+}
+
+.vl-education {
+  border-left: 1.75px solid 	#A9A9A9;
+  height: 300px;
   margin-top: 20px;
   margin-left: 5px;
   padding: 15px;
