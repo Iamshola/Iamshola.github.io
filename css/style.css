@@ -27,6 +27,7 @@ h2{
   padding: 20px;
 
 }
+
 @media only screen and (max-width: 1024px) {
   .project-image{
     height: 350px;
@@ -34,6 +35,13 @@ h2{
   }
 
 }
+
+@media only screen and (max-width: 480px) {
+  .project-image{ height: 200px; width: 250px;}
+
+}
+
+
 
 a span {
   display: none;
@@ -82,6 +90,7 @@ i{
   color: grey;
 }
 
+
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 .hero h1 {
@@ -116,6 +125,14 @@ i{
   }
 
 }
+@media only screen and (max-width: 480px) {
+  .hero { height: 700px; width: 690px;}
+  .hero h1{
+    font: normal 60px Varela Round, sans-serif;
+    text-align: center;
+  }
+}
+
 
 @keyframes move {
   0% {
@@ -242,6 +259,14 @@ i{
 .nav-container .current a:after {
   width: 100%;
 }
+
+@media only screen and (max-width: 480px) {
+  .nav-container{ height: 50px; width: 560px;}
+
+}
+
+
+
 
 #header-fix-space {
   height: 150px;
@@ -396,6 +421,23 @@ h2.skills-title{
   width: 50%;
   color: black;
 }
+
+@media only screen and (max-width: 480px) {
+  .skills-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .skills-child {
+    width:600px;
+
+    color: black;
+  }
+
+
+
+}
+
+
 .vl {
   border-left: 1.2px solid 	#A9A9A9;
   height: 500px;
