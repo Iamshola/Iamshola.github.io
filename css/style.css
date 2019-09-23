@@ -19,9 +19,29 @@ h2{
 }
 
 .container{
-  display: flex;
   margin: 10px 80px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container{
+    display: flex;
+    margin: 5px 30px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .container{
+    display: flex;
+    margin: 5px 30px;
+  }
+
+
+
+
+}
+
+
 .project-image{
   height: 400px;
   width: 600px;
@@ -31,8 +51,9 @@ h2{
 
 @media only screen and (max-width: 1024px) {
   .project-image{
-    height: 350px;
-    width: 500px;
+    height: 250px;
+    width: 370px;
+    margin-top: 70px;
   }
 
 }
@@ -104,7 +125,7 @@ i{
   position: absolute;
   text-align: center;
   text-transform: uppercase;
-  top: 30%;
+  top: 22%;
   width: 100%;
   padding-top: 140px;
   animation: move linear 5000ms infinite;
@@ -439,11 +460,9 @@ h2.skills-title{
 @media only screen and (max-width: 480px) {
   .skills-container{
     display: flex;
-    flex-direction: row;
   }
   .skills-child {
     width:600px;
-
     color: black;
   }
 
