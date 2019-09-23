@@ -423,8 +423,8 @@ p.tech-languages{
   border-left: 1.2px solid 	#A9A9A9;
   height: 350px;
   margin-top: 20px;
-  margin-left: 5px;
-  padding: 15px;
+  margin-left: 10px;
+  padding: 10px;
 }
 @media only screen and (max-width: 1024px) {
   .vl-education {
