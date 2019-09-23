@@ -126,10 +126,17 @@ i{
 
 }
 @media only screen and (max-width: 480px) {
-  .hero { height: 700px; width: 690px;}
+  .hero { height: 600px; width: 690px;}
   .hero h1{
-    font: normal 60px Varela Round, sans-serif;
+    font: normal 62px Varela Round, sans-serif;
     text-align: center;
+    position: absolute;
+    height: 140px;
+    text-transform: uppercase;
+    top: 20%;
+    left: 50%;
+    margin: 0;
+    padding-top: 20px;
   }
 }
 
@@ -262,6 +269,12 @@ i{
 
 @media only screen and (max-width: 480px) {
   .nav-container{ height: 50px; width: 560px;}
+  .nav-container li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0.1em 0.5em;
+    padding: 0;
+  }
 
 }
 
