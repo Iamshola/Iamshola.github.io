@@ -473,6 +473,15 @@ h2.skills-title{
 
 
 }
+@media only screen and (min-width: 736px) {
+  .skills-child.icons {
+  margin: 0;
+
+  }
+
+
+}
+
 
 
 
@@ -549,14 +558,6 @@ p.tech-languages{
 
 }
 
-@media only screen and (max-width: 480px) {
-  .projects{
-  margin-bottom: 40px;
-
-  }
-
-
-}
 
 
 .project-links {
