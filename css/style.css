@@ -462,37 +462,38 @@ h2.skills-title{
 }
 .skills-child.icons{
   margin: 0 300px;
+
 }
+
+@media only screen and (max-width: 480px) {
+  .education-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .vl {
+    border-top: 1.2px solid 	#A9A9A9;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 15px;
+  }
+
+}
+
 .education-container{
   display: flex;
-
-
-
 }
 .education-child {
   width: 50%;
   color: black;
 }
+
 @media only screen and (max-width: 480px) {
-  .skills-container{
-    display: flex;
-  }
-  .skills-child {
-    width:600px;
-    color: black;
+  .education-child{
+    text-align: center;
+    width: 100%;
   }
 
-
-
-}
-
-
-.vl {
-  border-left: 1.2px solid 	#A9A9A9;
-  height: 500px;
-  margin-top: 20px;
-  margin-left: 5px;
-  padding: 15px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -520,6 +521,18 @@ p.tech-languages{
 @media only screen and (max-width: 1024px) {
   .vl-education {
     height: 430px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .vl-education{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
   }
 
 }
