@@ -23,6 +23,7 @@ h2{
   margin: 10px 80px;
 }
 
+
 @media only screen and (max-width: 1024px) {
   .container{
     display: flex;
@@ -38,20 +39,65 @@ h2{
   }
 
 }
-
-
+div.indi-project{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.projectInfo{
+  margin: 40px;
+}
 .project-image{
   height: 400px;
   width: 600px;
   padding: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  div.indi-project{
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .projectInfo{
+    margin: 0px;
+  }
+  .project-image{
+    height: 400px;
+    width: 600px;
+    padding: 0px;
+  }
 
 }
+
+@media only screen and (max-width: 1024px) {
+  div.indi-project{
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .projectInfo{
+    margin: 0px;
+    height: 800px;
+  }
+  .project-image{
+    height: 400px;
+    width: 600px;
+    padding: 20px;
+  }
+  .dots{
+    padding-top: 50px;
+  }
+
+
+}
+
 
 @media only screen and (max-width: 1024px) {
   .project-image{
     height: 250px;
     width: 370px;
-    margin-top: 70px;
+    margin-top: 0px;
   }
 
 }
@@ -341,11 +387,9 @@ i{
   background-color: #555;
 }
 
-div.indi-project{
-  padding-top: 50px;
-  display: flex;
-  justify-content: space-between;
-}
+
+
+
 
 
 
@@ -618,9 +662,7 @@ p.tech-languages{
 }
 
 
-.projectInfo{
-  margin: 40px;
-}
+
 
 /* Skills Hover animation */
 .column {
