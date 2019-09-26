@@ -146,7 +146,7 @@ i{
 
 }
 @media only screen and (max-width: 480px) {
-  .hero { height: 600px; width: 690px;}
+  .hero { height: 600px; width: 1090px;}
   .hero h1{
     font: normal 62px Varela Round, sans-serif;
     text-align: center;
@@ -452,8 +452,7 @@ h2.skills-title{
 
 .skills-container{
   display: flex;
-   flex-direction: column;
-
+  flex-direction: column;
 
 }
 
@@ -464,6 +463,19 @@ h2.skills-title{
   margin: 0 300px;
 
 }
+
+
+@media only screen and (max-width: 480px) {
+  .skills-child.icons {
+  margin: 0;
+
+  }
+
+
+}
+
+
+
 
 @media only screen and (max-width: 480px) {
   .education-container{
@@ -534,6 +546,15 @@ p.tech-languages{
     margin: 1em 0;
     padding: 0;
   }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .projects{
+  margin-bottom: 40px;
+
+  }
+
 
 }
 
