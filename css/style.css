@@ -12,10 +12,9 @@ body {
   font-family: 'Heebo', sans-serif;
   background-color: white;
   color: black;
-
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
@@ -23,27 +22,25 @@ h2{
   margin: 10px 80px;
 }
 
-
 @media only screen and (max-width: 1024px) {
   .container{
     display: flex;
     margin: 5px 30px;
   }
-
 }
-
 @media only screen and (max-width: 480px) {
   .container{
     display: flex;
     margin: 5px 30px;
   }
-
 }
+
 div.indi-project{
   padding-top: 50px;
   display: flex;
   justify-content: space-between;
 }
+
 .projectInfo{
   margin: 40px;
 }
@@ -67,7 +64,6 @@ div.indi-project{
     width: 600px;
     padding: 0px;
   }
-
 }
 
 @media only screen and (max-width: 1024px) {
@@ -88,10 +84,7 @@ div.indi-project{
   .dots{
     padding-top: 50px;
   }
-
-
 }
-
 
 @media only screen and (max-width: 1024px) {
   .project-image{
@@ -99,15 +92,14 @@ div.indi-project{
     width: 370px;
     margin-top: 0px;
   }
-
 }
 
 @media only screen and (max-width: 480px) {
-  .project-image{ height: 200px; width: 250px;}
-
+  .project-image{
+    height: 200px;
+    width: 250px;
+  }
 }
-
-
 
 a span {
   display: none;
@@ -130,6 +122,7 @@ a:hover span {
   float: left;
   padding-right: 20px;
 }
+
 a{
   position: relative
   text-decoration: none;
@@ -183,16 +176,16 @@ i{
     position: absolute;
     top: 5%;
     font: normal 80px Varela Round, sans-serif;
-
-   }
+  }
   .hero p{
     padding-top: 100px;
-
   }
-
 }
 @media only screen and (max-width: 480px) {
-  .hero { height: 600px; width: 1090px;}
+  .hero {
+    height: 600px;
+    width: 1090px;
+  }
   .hero h1{
     font: normal 62px Varela Round, sans-serif;
     text-align: center;
@@ -205,7 +198,6 @@ i{
     padding-top: 20px;
   }
 }
-
 
 @keyframes move {
   0% {
@@ -341,10 +333,7 @@ i{
     margin: 0.1em 0.5em;
     padding: 0;
   }
-
 }
-
-
 
 
 #header-fix-space {
@@ -358,7 +347,6 @@ i{
   top: 0px;
   left: 0px;
   z-index: 1500;
-
 }
 /* Navabar Content Ends */
 
@@ -386,13 +374,6 @@ i{
 #myBtn:hover {
   background-color: #555;
 }
-
-
-
-
-
-
-
 
 /* Slideshow container */
 .slideshow-container {
@@ -423,7 +404,6 @@ i{
   border-radius: 40px;
   user-select: none;
 }
-
 
 /* Position the "next button" to the right */
 .next {
@@ -497,52 +477,40 @@ h2.skills-title{
 .skills-container{
   display: flex;
   flex-direction: column;
-
 }
 
 .skills-child {
   color: black;
 }
 .skills-child.icons{
-  margin: 0 300px;
-
+  padding-left: 350px;
 }
 
 
 @media only screen and (max-width: 480px) {
   .skills-child.icons {
   margin: 0;
-
   }
-
-
 }
+
 @media only screen and (min-width: 736px) {
   .skills-child.icons {
   margin: 0;
-
   }
-
-
 }
 
-
-
-
-
 @media only screen and (max-width: 480px) {
-  .education-container{
+  .education-container {
     display: flex;
     flex-direction: column;
   }
   .vl {
-    border-top: 1.2px solid 	#A9A9A9;
+    border-top: 1.2px solid #A9A9A9;
     height: 500px;
     margin-top: 20px;
     margin-left: 5px;
     padding: 15px;
   }
-
 }
 
 .education-container{
@@ -558,23 +526,18 @@ h2.skills-title{
     text-align: center;
     width: 100%;
   }
-
 }
 
 @media only screen and (max-width: 1024px) {
   .vl {
     height: 680px;
   }
-
 }
 
 p.tech-languages{
   text-align: center;
   font-weight: 900;
-
 }
-
-
 
 .vl-education {
   border-left: 1.2px solid 	#A9A9A9;
@@ -587,7 +550,6 @@ p.tech-languages{
   .vl-education {
     height: 430px;
   }
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -599,10 +561,7 @@ p.tech-languages{
     margin: 1em 0;
     padding: 0;
   }
-
 }
-
-
 
 .project-links {
   font-family: 'Raleway', Arial, sans-serif;
@@ -661,60 +620,57 @@ p.tech-languages{
   width: 100%;
 }
 
-
-
-
 /* Skills Hover animation */
 .column {
-	margin: 15px 15px 0;
-	padding: 0;
+  margin: 15px 15px 0;
+  padding: 0;
 }
 .column:last-child {
-	padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 .column::after {
-	content: '';
-	clear: both;
-	display: block;
+  content: '';
+  clear: both;
+  display: block;
 }
 .column div {
-	position: relative;
-	float: left;
-	width: 60px;
-	height: 50px;
-	margin: 0 0 0 25px;
-	padding: 0;
+  position: relative;
+  float: left;
+  width: 60px;
+  height: 50px;
+  margin: 0 0 0 25px;
+  padding: 0;
 }
 .column div:first-child {
-	margin-left: 0;
+  margin-left: 0;
 }
 .column div span {
-	position: absolute;
-	bottom: -20px;
-	left: 0;
-	z-index: -1;
-	display: block;
-	width: 70px;
-	margin: 0;
-	padding: 0;
-	color: pink;
-	font-size: 14px;
-	text-decoration: none;
-	text-align: center;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	opacity: 0;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  z-index: -1;
+  display: block;
+  width: 70px;
+  margin: 0;
+  padding: 0;
+  color: pink;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  opacity: 0;
   font-weight: 900;
 }
 figure {
-	width: 60px;
-	height: 50px;
-	margin: 0;
-	padding: 0;
-	background: #fff;
-	overflow: hidden;
+  width: 60px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
 }
 figure:hover+span {
-	bottom: -36px;
-	opacity: 1;
+  bottom: -36px;
+  opacity: 1;
 }
