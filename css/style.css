@@ -486,12 +486,6 @@ h2.skills-title{
   margin: 0 350px ;
 }
 
-@media only screen and (min-width: 736px) {
-  .skills-child.icons {
-    margin: 0 40px;
-  }
-}
-
 
 @media only screen and (max-width: 480px) {
   .skills-child {
@@ -501,6 +495,9 @@ h2.skills-title{
   .education-container {
     display: flex;
     flex-direction: column;
+  }
+  .skills-child.icons {
+    margin: 0 40px;
   }
   .vl {
     border-top: 1.2px solid #A9A9A9;
