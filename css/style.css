@@ -482,24 +482,22 @@ h2.skills-title{
 .skills-child {
   color: black;
 }
-.skills-child.icons{
+/* .skills-child.icons{
   padding-left: 350px;
-}
-
-
-@media only screen and (max-width: 480px) {
-  .skills-child.icons {
-  margin: 0;
-  }
-}
+} */
 
 @media only screen and (min-width: 736px) {
   .skills-child.icons {
-  margin: 0;
+    padding-left: 0;
   }
 }
 
+
 @media only screen and (max-width: 480px) {
+  .skills-child {
+  margin: 0;
+  padding-left: 0;
+  }
   .education-container {
     display: flex;
     flex-direction: column;
@@ -625,6 +623,7 @@ p.tech-languages{
   margin: 15px 15px 0;
   padding: 0;
 }
+
 .column:last-child {
   padding-bottom: 60px;
 }
