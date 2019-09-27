@@ -482,13 +482,13 @@ h2.skills-title{
 .skills-child {
   color: black;
 }
-/* .skills-child.icons{
-  padding-left: 350px;
-} */
+.skills-child.icons{
+  margin: 0 350px ;
+}
 
 @media only screen and (min-width: 736px) {
   .skills-child.icons {
-    padding-left: 0;
+    margin: 0 40px;
   }
 }
 
