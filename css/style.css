@@ -487,7 +487,6 @@ h2.skills-title{
   margin: 0 50px ;
 }
 
-
 @media only screen and (max-width: 480px) {
   .skills-child {
   margin: 0;
@@ -508,6 +507,24 @@ h2.skills-title{
     padding: 15px;
   }
 }
+
+@media only screen and (max-width : 1199px) {
+.skills-container{
+  display: flex;
+   flex-direction: column;
+}
+.skills-child.icons {
+    margin: 0 200px;
+  }
+
+  .mySlides{
+    height: 350px;
+  }
+
+
+}
+
+
 
 .education-container{
   display: flex;
