@@ -476,14 +476,15 @@ h2.skills-title{
 
 .skills-container{
   display: flex;
-  flex-direction: column;
+  
 }
 
 .skills-child {
   color: black;
+  /* flex-direction: column; */
 }
 .skills-child.icons{
-  margin: 0 350px ;
+  margin: 0 50px ;
 }
 
 
@@ -617,6 +618,7 @@ p.tech-languages{
 
 /* Skills Hover animation */
 .column {
+  display: flex;
   margin: 15px 15px 0;
   padding: 0;
 }
